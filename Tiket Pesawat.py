@@ -5,7 +5,7 @@ loop = True
 while loop:
   def menu():
     print("\n-------------------------------")
-    print("\n TRAVELOKE BOOK FLIGHT TICKET")
+    print("\n TRAVELIO BOOK FLIGHT TICKET")
     print("\n-------------------------------")
     print("1. Jakarta")
     print("2. Bandung")
@@ -110,3 +110,107 @@ while loop:
       print("Anda memilih kode penerbangan",+int(no_pesawat))
       print("---------------------------------")
       pesan()
+      
+    elif ((no_pesawat) == 203):
+      harga = 1200000
+      print("")
+      print("---------------------------------")
+      print("Anda memilih kode penerbangan",+int(no_pesawat))
+      print("---------------------------------")
+      pesan()
+      
+    else :
+      os.system('cls')
+      print("Kode penerbangan tidak ada dalam daftar")
+
+   elif ((tujuan) == 3):
+    print("\n-------------------------------------------------------")
+    print("\nKode  Nama\tKota\t\tHarga")
+    print("\n      Pesawat\tTujuan\t\tTiket")
+    print("\n-------------------------------------------------------")
+    print("\n301. Citilink\tYogyakarta \tRp.1.000.000")
+    print("\n302. Lion Air\tYogyakarta \tRp.800.000")
+    print("\n303. Garuda\tYogyakarta \tRp.1.600.000")
+    print("\n-------------------------------------------------------")
+    no_pesawat = int(input("Masukan kode penerbangan :"))
+
+    if ((no_pesawat) == 301):
+      harga = 1000000
+      print("")
+      print("---------------------------------")
+      print("Anda memilih kode penerbangan",+int(no_pesawat))
+      print("---------------------------------")
+      pesan()
+
+    elif ((no_pesawat) == 302):
+      harga = 800000
+      print("")
+      print("---------------------------------")
+      print("Anda memilih kode penerbangan",+int(no_pesawat))
+      print("---------------------------------")
+      pesan()
+
+    elif ((no_pesawat) == 303):
+      harga = 1600000
+      print("")
+      print("---------------------------------")
+      print("Anda memilih kode penerbangan",+int(no_pesawat))
+      print("---------------------------------")
+      pesan()
+
+    else :
+      os.system('cls')
+      print("Kode penerbangan tidak ada dalam daftar")
+
+
+
+  elif ((tujuan) == 4):
+    print("\n-------------------------------------------------------")
+    print("\nKode  Nama\tKota\t\tHarga")
+    print("\n      Pesawat\tTujuan\t\tTiket")
+    print("\n-------------------------------------------------------")
+    print("\n401. Garuda\tSurabaya \tRp.1.200.000")
+    print("\n402. Lion Air\tSurabaya \tRp.1.000.000")
+    print("\n403. Merpati\tSurabaya \tRp.1.800.000")
+    print("\n-------------------------------------------------------")
+    no_pesawat = int(input("Masukan kode penerbangan :"))
+
+
+
+    if ((no_pesawat) == 401):
+      harga = 1000000
+      print("")
+      print("---------------------------------")
+      print("Anda memilih kode penerbangan",+int(no_pesawat))
+      print("---------------------------------")
+      pesan()
+
+    elif ((no_pesawat) == 402):
+      harga = 800000
+      print("")
+      print("---------------------------------")
+      print("Anda memilih kode penerbangan",+int(no_pesawat))
+      print("---------------------------------")
+      pesan()
+
+    elif ((no_pesawat) == 403):
+      harga = 800000
+      print("")
+      print("---------------------------------")
+      print("Anda memilih kode penerbangan",+int(no_pesawat))
+      print("---------------------------------")
+      pesan()
+
+    else :
+      os.system('cls')
+      print("Kode penerbangan tidak ada dalam daftar")
+
+
+  elif ((tujuan) == 5):
+    os.system('cls')
+    exit()
+
+
+  else :
+    os.system('cls')
+    print("***Pilihan tidak ada dalam daftar***")
